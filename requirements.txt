@@ -1,0 +1,16 @@
+# requirements.txt
+flask==2.3.2
+gunicorn==21.2.0
+soundfile==0.13.1
+safetensors>=0.4.2
+numpy>=1.23
+huggingface-hub>=0.23.2
+transformers==4.46.1
+git+https://github.com/huggingface/parler-tts.git
+flash-attn==2.5.7
+optimum[onnxruntime-gpu]>=1.16.0
+onnx>=1.15.0
+onnxruntime-gpu>=1.16.0
+# Optional packages for advanced optimization (may not be available on all systems)
+# torch-tensorrt  # Uncomment if TensorRT is available
+# optimum[intel]  # Uncomment for Intel Neural Compressor support
